@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  PQScanner: 7a1dfd2ee90cd251fbb77a274dfab70f53d38888
+  PQScanner: 214c7657c77f8b433bdd22fda2d4f592ac8a29d3
 
 COCOAPODS: 0.39.0

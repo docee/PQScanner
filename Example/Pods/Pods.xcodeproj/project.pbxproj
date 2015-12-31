@@ -8,16 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		200D24C886EBC9E06EC3522EEA96057B /* Pods-PQScanner_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFAA90956F40057891136AA8B6EFDB21 /* Pods-PQScanner_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36AABBBC98AA0A8364F03BD53FE7D897 /* PQScanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B20678232BD624AA53A8CF02798D1DE /* PQScanner-dummy.m */; };
+		3E0964777504EF508EFB4810FA56DE22 /* PQScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = FF11F2BB22FE8C951D711E8108784415 /* PQScanner.m */; };
+		4D0BE947B0B5264C9582405BD7C6D367 /* PQScanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A56D87D38920934554DC5238B3E09DE /* PQScanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		54DE702BF931BE06AB01E4F795DE02B9 /* PQScanner.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1D05748C71C6075B01082948396407D8 /* PQScanner.bundle */; };
-		5ADCE42B86B02651CAF2D905AED94CC5 /* PQScanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B20678232BD624AA53A8CF02798D1DE /* PQScanner-dummy.m */; };
-		5B00621D38F2961A2B3C16BC94B574FF /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 78887E912A185850C6865837DFD31D7E /* ReplaceMe.m */; };
 		6000A856C9D816AEB4EE7C854BEECE2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		662CE15B8E2F1914F8664BBF9047B378 /* Pods-PQScanner_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD0E8A27CA2CCCC7BA1B839DCCC39CF /* Pods-PQScanner_Example-dummy.m */; };
 		6A0B499218A495CD40F54FCA73CFF8D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		830374B4D8E6F62D139B8652168ADBCF /* Pods-PQScanner_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61592F647AE163AAB6830A56AE3971EB /* Pods-PQScanner_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B1DFF8636192CC7AE14A17D92F75813E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		B2880D3A6BFBE3530ACD2E870C8213FC /* PQScanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A56D87D38920934554DC5238B3E09DE /* PQScanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EED304E67DD4FA535C40DC866C00976B /* Pods-PQScanner_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A8C16DCB88AC36A9E231A629EB3326A /* Pods-PQScanner_Tests-dummy.m */; };
+		FAEB91011FC8D23F95EC87B910F7F2C5 /* PQScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 51C0C249004D3964404E213E1251961F /* PQScanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,11 +55,11 @@
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		45EC9A6BA3B586F4D92D3835B5C730F2 /* Pods-PQScanner_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PQScanner_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		50F0940A1721F6A80988944CFC2043CD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51C0C249004D3964404E213E1251961F /* PQScanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PQScanner.h; sourceTree = "<group>"; };
 		61592F647AE163AAB6830A56AE3971EB /* Pods-PQScanner_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PQScanner_Example-umbrella.h"; sourceTree = "<group>"; };
 		63A4DF80B89EEC9288ADFDB9CD36840B /* Pods-PQScanner_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PQScanner_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		652663548F27CCECF571E55763E5DCE6 /* Pods-PQScanner_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PQScanner_Tests.modulemap"; sourceTree = "<group>"; };
 		6A8C16DCB88AC36A9E231A629EB3326A /* Pods-PQScanner_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PQScanner_Tests-dummy.m"; sourceTree = "<group>"; };
-		78887E912A185850C6865837DFD31D7E /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		81272DF06348DAA4E6F63F162DD52592 /* Pods_PQScanner_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PQScanner_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88397D6529DA4CF630FA072F27F001B8 /* Pods-PQScanner_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PQScanner_Example.modulemap"; sourceTree = "<group>"; };
 		8B20678232BD624AA53A8CF02798D1DE /* PQScanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PQScanner-dummy.m"; sourceTree = "<group>"; };
@@ -78,6 +79,7 @@
 		F8488E8812BD339E96C76DDA6776DE87 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC4C28B1491299F5D1BA109FA76A2AE6 /* Pods-PQScanner_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PQScanner_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FD221199D42C61ABC099B2DA18D0B324 /* Pods_PQScanner_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PQScanner_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF11F2BB22FE8C951D711E8108784415 /* PQScanner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PQScanner.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,22 +181,6 @@
 			);
 			sourceTree = "<group>";
 		};
-		85E5D8F3DCD112C1CAE36199CE462A97 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				AEC4F84CE63F65EDABEC4BC8AB1FBC89 /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		AEC4F84CE63F65EDABEC4BC8AB1FBC89 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				78887E912A185850C6865837DFD31D7E /* ReplaceMe.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -225,10 +211,18 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		C49CCBCCE718BF456FADDAF91F325E67 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FB423CB82A758EE3FD20BB353E732847 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
 		DFA09DD479F7734F1B774441CB0DD9DC /* PQScanner */ = {
 			isa = PBXGroup;
 			children = (
-				85E5D8F3DCD112C1CAE36199CE462A97 /* Pod */,
+				C49CCBCCE718BF456FADDAF91F325E67 /* Pod */,
 				BE3ECC47328B299237A46E9A0CC4EFCC /* Support Files */,
 			);
 			name = PQScanner;
@@ -246,22 +240,32 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		FB423CB82A758EE3FD20BB353E732847 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				51C0C249004D3964404E213E1251961F /* PQScanner.h */,
+				FF11F2BB22FE8C951D711E8108784415 /* PQScanner.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1A2B1B646E11148343AFD73F4697BFC8 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B2880D3A6BFBE3530ACD2E870C8213FC /* PQScanner-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4C9FF01BF479CB6F02C81A0A99DE6292 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				200D24C886EBC9E06EC3522EEA96057B /* Pods-PQScanner_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6C491013ED4E6E548F792FA3EF104EE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D0BE947B0B5264C9582405BD7C6D367 /* PQScanner-umbrella.h in Headers */,
+				FAEB91011FC8D23F95EC87B910F7F2C5 /* PQScanner.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,10 +319,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD639F24FB6C32D15B0331ED21B50AD4 /* Build configuration list for PBXNativeTarget "PQScanner" */;
 			buildPhases = (
-				70D2A848A7AE252C9B52A91BECCCCF60 /* Sources */,
+				484141D7110D3639192EC69A92D6AA5D /* Sources */,
 				08DB9E9872325FA23239E3D1BA1E041E /* Frameworks */,
 				82BDCF0280DD619A8C2CA1F8BC9DFD5E /* Resources */,
-				1A2B1B646E11148343AFD73F4697BFC8 /* Headers */,
+				A6C491013ED4E6E548F792FA3EF104EE /* Headers */,
 			);
 			buildRules = (
 			);
@@ -396,20 +400,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		484141D7110D3639192EC69A92D6AA5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36AABBBC98AA0A8364F03BD53FE7D897 /* PQScanner-dummy.m in Sources */,
+				3E0964777504EF508EFB4810FA56DE22 /* PQScanner.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		53965B2E387A8D7E689C76DA92736571 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				EED304E67DD4FA535C40DC866C00976B /* Pods-PQScanner_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		70D2A848A7AE252C9B52A91BECCCCF60 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5ADCE42B86B02651CAF2D905AED94CC5 /* PQScanner-dummy.m in Sources */,
-				5B00621D38F2961A2B3C16BC94B574FF /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
