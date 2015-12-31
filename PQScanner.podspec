@@ -6,7 +6,6 @@ Pod::Spec.new do |s|
   s.license          = 'MIT'
   s.author           = { "Docee" => "docee@163.com" }
   s.source           = { :git => "https://github.com/docee/PQScanner.git", :tag => s.version.to_s }
-  s.social_media_url = 'https://twitter.com/docee'
   s.platform     = :ios, '7.0'
   s.requires_arc = true
   s.source_files = 'Pod/Classes/**/*'
