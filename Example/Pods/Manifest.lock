@@ -1,0 +1,14 @@
+PODS:
+  - PQScanner (0.1.0)
+
+DEPENDENCIES:
+  - PQScanner (from `../`)
+
+EXTERNAL SOURCES:
+  PQScanner:
+    :path: ../
+
+SPEC CHECKSUMS:
+  PQScanner: 7a1dfd2ee90cd251fbb77a274dfab70f53d38888
+
+COCOAPODS: 0.39.0

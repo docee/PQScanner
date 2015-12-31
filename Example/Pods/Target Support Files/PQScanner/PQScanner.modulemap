@@ -1,0 +1,6 @@
+framework module PQScanner {
+  umbrella header "PQScanner-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'PQScanner_Example', :exclusive => true do
+  pod "PQScanner", :path => "../"
+end
+
+target 'PQScanner_Tests', :exclusive => true do
+  pod "PQScanner", :path => "../"
+
+  
+end
