@@ -1,17 +1,17 @@
 {
   "name": "PQScanner",
   "version": "0.1.0",
-  "summary": "A short description of PQScanner.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/PQScanner",
+  "summary": "An awesome QR code and Barcode scanner base on iOS7 SDK.",
+  "homepage": "https://github.com/docee/PQScanner",
   "license": "MIT",
   "authors": {
-    "黄盼青": "docee@163.com"
+    "Docee": "docee@163.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/PQScanner.git",
+    "git": "https://github.com/docee/PQScanner.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/docee",
   "platforms": {
     "ios": "7.0"
   },

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "PQScanner"
-  s.version          = "0.1.0"
+  s.version          = "0.1.2"
   s.summary          = "An awesome QR code and Barcode scanner base on iOS7 SDK."
   s.homepage         = "https://github.com/docee/PQScanner"
   s.license          = 'MIT'

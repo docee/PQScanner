@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '42AA1E01C1A64EB6DA894092'
+               BlueprintIdentifier = '52140861AC12C6C1E55AE062'
                BlueprintName = 'PQScanner'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'PQScanner.framework'>
