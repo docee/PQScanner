@@ -7,17 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		200D24C886EBC9E06EC3522EEA96057B /* Pods-PQScanner_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFAA90956F40057891136AA8B6EFDB21 /* Pods-PQScanner_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		36AABBBC98AA0A8364F03BD53FE7D897 /* PQScanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B20678232BD624AA53A8CF02798D1DE /* PQScanner-dummy.m */; };
 		3E0964777504EF508EFB4810FA56DE22 /* PQScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = FF11F2BB22FE8C951D711E8108784415 /* PQScanner.m */; };
 		4D0BE947B0B5264C9582405BD7C6D367 /* PQScanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A56D87D38920934554DC5238B3E09DE /* PQScanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		54DE702BF931BE06AB01E4F795DE02B9 /* PQScanner.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1D05748C71C6075B01082948396407D8 /* PQScanner.bundle */; };
 		6000A856C9D816AEB4EE7C854BEECE2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		662CE15B8E2F1914F8664BBF9047B378 /* Pods-PQScanner_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD0E8A27CA2CCCC7BA1B839DCCC39CF /* Pods-PQScanner_Example-dummy.m */; };
-		6A0B499218A495CD40F54FCA73CFF8D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		830374B4D8E6F62D139B8652168ADBCF /* Pods-PQScanner_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61592F647AE163AAB6830A56AE3971EB /* Pods-PQScanner_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B1DFF8636192CC7AE14A17D92F75813E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		EED304E67DD4FA535C40DC866C00976B /* Pods-PQScanner_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A8C16DCB88AC36A9E231A629EB3326A /* Pods-PQScanner_Tests-dummy.m */; };
 		FAEB91011FC8D23F95EC87B910F7F2C5 /* PQScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 51C0C249004D3964404E213E1251961F /* PQScanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -28,13 +25,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 2A47EDF95618579E833C167A0809B6C2;
 			remoteInfo = "PQScanner-PQScanner";
-		};
-		E428DBECB5D782C60ADC84F5E524433A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = ACDAF89093A541CF72B11B127B76202A;
-			remoteInfo = PQScanner;
 		};
 		FF50E3DA67E1147AB3AC9AAF648F608D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -47,34 +37,23 @@
 
 /* Begin PBXFileReference section */
 		063F9A4C24E44170B17A5843FFD1D1C6 /* Pods-PQScanner_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PQScanner_Example.release.xcconfig"; sourceTree = "<group>"; };
-		09C1D660CB276EC7DC89A42D0C8677ED /* Pods-PQScanner_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PQScanner_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		145F08D78B4EB83495CD3FB5295BAAA3 /* PQScanner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PQScanner.xcconfig; sourceTree = "<group>"; };
 		1BD0E8A27CA2CCCC7BA1B839DCCC39CF /* Pods-PQScanner_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PQScanner_Example-dummy.m"; sourceTree = "<group>"; };
 		1D05748C71C6075B01082948396407D8 /* PQScanner.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PQScanner.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E0EE45B5BA71A86D803202120569633 /* PQScanner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PQScanner.modulemap; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		45EC9A6BA3B586F4D92D3835B5C730F2 /* Pods-PQScanner_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PQScanner_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		50F0940A1721F6A80988944CFC2043CD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51C0C249004D3964404E213E1251961F /* PQScanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PQScanner.h; sourceTree = "<group>"; };
 		61592F647AE163AAB6830A56AE3971EB /* Pods-PQScanner_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PQScanner_Example-umbrella.h"; sourceTree = "<group>"; };
 		63A4DF80B89EEC9288ADFDB9CD36840B /* Pods-PQScanner_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PQScanner_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		652663548F27CCECF571E55763E5DCE6 /* Pods-PQScanner_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PQScanner_Tests.modulemap"; sourceTree = "<group>"; };
-		6A8C16DCB88AC36A9E231A629EB3326A /* Pods-PQScanner_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PQScanner_Tests-dummy.m"; sourceTree = "<group>"; };
-		81272DF06348DAA4E6F63F162DD52592 /* Pods_PQScanner_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PQScanner_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88397D6529DA4CF630FA072F27F001B8 /* Pods-PQScanner_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PQScanner_Example.modulemap"; sourceTree = "<group>"; };
 		8B20678232BD624AA53A8CF02798D1DE /* PQScanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PQScanner-dummy.m"; sourceTree = "<group>"; };
-		9607072C7B7EDEFFD12A0B1F9598D204 /* Pods-PQScanner_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PQScanner_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9A56D87D38920934554DC5238B3E09DE /* PQScanner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PQScanner-umbrella.h"; sourceTree = "<group>"; };
 		AF768C1B2851F4FD5B18F4B048256716 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B2C129F940CB062E8612FA62FD0F735F /* Pods-PQScanner_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PQScanner_Tests-resources.sh"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BF4157CB554D2287F362FF4771F6E5C7 /* Pods-PQScanner_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PQScanner_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		BFAA90956F40057891136AA8B6EFDB21 /* Pods-PQScanner_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PQScanner_Tests-umbrella.h"; sourceTree = "<group>"; };
 		C2B2E696CF685A237FBF361C6D5A7E4A /* PQScanner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PQScanner-prefix.pch"; sourceTree = "<group>"; };
 		D157EA2476DF4B8BDCE202C3D1F7E42C /* PQScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PQScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4B6E5B870D21AFF30D7E14571585021 /* Pods-PQScanner_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PQScanner_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E8EE424A7680C7D9464CBDB59942FDFE /* Pods-PQScanner_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PQScanner_Example-frameworks.sh"; sourceTree = "<group>"; };
-		EAD52E808BBD9952AA595A5B6D5CE934 /* Pods-PQScanner_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PQScanner_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		F4F45D8A7B4D4E5018235A71E448796A /* Pods-PQScanner_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PQScanner_Example-resources.sh"; sourceTree = "<group>"; };
 		F8488E8812BD339E96C76DDA6776DE87 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC4C28B1491299F5D1BA109FA76A2AE6 /* Pods-PQScanner_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PQScanner_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -88,14 +67,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6000A856C9D816AEB4EE7C854BEECE2E /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		38FD79C12C7D3EF8C7AD710D511F3CC8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6A0B499218A495CD40F54FCA73CFF8D1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,7 +92,6 @@
 			isa = PBXGroup;
 			children = (
 				074C7FDCD2523A3F857A15332D281BCD /* Pods-PQScanner_Example */,
-				292547C2369ABD9B0BCAC03A9E5319EF /* Pods-PQScanner_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -150,24 +120,6 @@
 				DFA09DD479F7734F1B774441CB0DD9DC /* PQScanner */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		292547C2369ABD9B0BCAC03A9E5319EF /* Pods-PQScanner_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				50F0940A1721F6A80988944CFC2043CD /* Info.plist */,
-				652663548F27CCECF571E55763E5DCE6 /* Pods-PQScanner_Tests.modulemap */,
-				09C1D660CB276EC7DC89A42D0C8677ED /* Pods-PQScanner_Tests-acknowledgements.markdown */,
-				9607072C7B7EDEFFD12A0B1F9598D204 /* Pods-PQScanner_Tests-acknowledgements.plist */,
-				6A8C16DCB88AC36A9E231A629EB3326A /* Pods-PQScanner_Tests-dummy.m */,
-				EAD52E808BBD9952AA595A5B6D5CE934 /* Pods-PQScanner_Tests-frameworks.sh */,
-				B2C129F940CB062E8612FA62FD0F735F /* Pods-PQScanner_Tests-resources.sh */,
-				BFAA90956F40057891136AA8B6EFDB21 /* Pods-PQScanner_Tests-umbrella.h */,
-				45EC9A6BA3B586F4D92D3835B5C730F2 /* Pods-PQScanner_Tests.debug.xcconfig */,
-				BF4157CB554D2287F362FF4771F6E5C7 /* Pods-PQScanner_Tests.release.xcconfig */,
-			);
-			name = "Pods-PQScanner_Tests";
-			path = "Target Support Files/Pods-PQScanner_Tests";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -233,7 +185,6 @@
 			isa = PBXGroup;
 			children = (
 				FD221199D42C61ABC099B2DA18D0B324 /* Pods_PQScanner_Example.framework */,
-				81272DF06348DAA4E6F63F162DD52592 /* Pods_PQScanner_Tests.framework */,
 				1D05748C71C6075B01082948396407D8 /* PQScanner.bundle */,
 				D157EA2476DF4B8BDCE202C3D1F7E42C /* PQScanner.framework */,
 			);
@@ -252,14 +203,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4C9FF01BF479CB6F02C81A0A99DE6292 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				200D24C886EBC9E06EC3522EEA96057B /* Pods-PQScanner_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A6C491013ED4E6E548F792FA3EF104EE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -334,24 +277,6 @@
 			productReference = D157EA2476DF4B8BDCE202C3D1F7E42C /* PQScanner.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F4AB07A2F09155249FE5F3F1B7043408 /* Pods-PQScanner_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4238E9189C5DCEBE359C8AD60709E7BA /* Build configuration list for PBXNativeTarget "Pods-PQScanner_Tests" */;
-			buildPhases = (
-				53965B2E387A8D7E689C76DA92736571 /* Sources */,
-				38FD79C12C7D3EF8C7AD710D511F3CC8 /* Frameworks */,
-				4C9FF01BF479CB6F02C81A0A99DE6292 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BFAE854745561634C7CA6C1BBDCCFBD2 /* PBXTargetDependency */,
-			);
-			name = "Pods-PQScanner_Tests";
-			productName = "Pods-PQScanner_Tests";
-			productReference = 81272DF06348DAA4E6F63F162DD52592 /* Pods_PQScanner_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -374,7 +299,6 @@
 			projectRoot = "";
 			targets = (
 				75D158FAB528A19AB804DBBD2FECB319 /* Pods-PQScanner_Example */,
-				F4AB07A2F09155249FE5F3F1B7043408 /* Pods-PQScanner_Tests */,
 				ACDAF89093A541CF72B11B127B76202A /* PQScanner */,
 				2A47EDF95618579E833C167A0809B6C2 /* PQScanner-PQScanner */,
 			);
@@ -409,14 +333,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		53965B2E387A8D7E689C76DA92736571 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EED304E67DD4FA535C40DC866C00976B /* Pods-PQScanner_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		99FEB8B881D04A058D085B05113D1812 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -446,12 +362,6 @@
 			name = "PQScanner-PQScanner";
 			target = 2A47EDF95618579E833C167A0809B6C2 /* PQScanner-PQScanner */;
 			targetProxy = 6C636FAE9E764E4FE9B506C1B765276A /* PBXContainerItemProxy */;
-		};
-		BFAE854745561634C7CA6C1BBDCCFBD2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PQScanner;
-			target = ACDAF89093A541CF72B11B127B76202A /* PQScanner */;
-			targetProxy = E428DBECB5D782C60ADC84F5E524433A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -586,66 +496,6 @@
 			};
 			name = Debug;
 		};
-		4034BF77512832EF643E9E455CB46951 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45EC9A6BA3B586F4D92D3835B5C730F2 /* Pods-PQScanner_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-PQScanner_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PQScanner_Tests/Pods-PQScanner_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_PQScanner_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		40B494813A391905013C804E72CBAD6B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF4157CB554D2287F362FF4771F6E5C7 /* Pods-PQScanner_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-PQScanner_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PQScanner_Tests/Pods-PQScanner_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_PQScanner_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		442A6C618ECBA84F4E57EF704E4C07DE /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 145F08D78B4EB83495CD3FB5295BAAA3 /* PQScanner.xcconfig */;
@@ -735,15 +585,6 @@
 			buildConfigurations = (
 				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
 				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4238E9189C5DCEBE359C8AD60709E7BA /* Build configuration list for PBXNativeTarget "Pods-PQScanner_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4034BF77512832EF643E9E455CB46951 /* Debug */,
-				40B494813A391905013C804E72CBAD6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
